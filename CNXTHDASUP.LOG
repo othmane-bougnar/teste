@@ -1,0 +1,595 @@
+7.200.0.3 : 08:18:49.518 : C:\swsetup\sp111438\Setup.exe -
+7.200.0.3 : 08:18:49.518 :   ENTRY: CSetupApp::RunSetupApp : GUIU Application Build v7.200.0.3
+7.200.0.3 : 08:18:49.518 :   Version = V7.200.0.3
+7.200.0.3 : 08:18:49.519 :   OS Platform = OS_WIN10-64
+7.200.0.3 : 08:18:49.519 :   dwSetupConfig = 20102 : dwMode = 81000
+7.200.0.3 : 08:18:49.519 :   CreateMutex - I_AM_THE_ROOT_UIU
+7.200.0.3 : 08:18:49.519 :   CreateMutex - I_AM_THE_ROOT_UIU_WITH_NO_UCI_RUNNING
+7.200.0.3 : 08:18:49.519 :   CSetupApp::GetSetupModeInfo : csCmdLine = -S -L:C:\CNXTHDASUP.LOG -RCSF -FNAME="Conexant HD/ISST Audio"
+7.200.0.3 : 08:18:49.519 :   CSetupApp::GetSetupConfigInfo : csCmdLine = -S -L:C:\CNXTHDASUP.LOG -RCSF -FNAME="Conexant HD/ISST Audio"
+7.200.0.3 : 08:18:49.520 :     ENTRY: CSetupDlg::RunSetupDlg
+7.200.0.3 : 08:18:49.521 :       ENTRY: CInstall :: SetupInstallEnviroment
+7.200.0.3 : 08:18:49.521 :         ENTRY: CFileUtils::UnloadUIUService
+7.200.0.3 : 08:18:49.522 :         EXIT:  CFileUtils::UnloadUIUService : bFileExist = 0
+7.200.0.3 : 08:18:49.522 :         ENTRY: CInstallWA2 :: StartClosePNPWindowThread
+7.200.0.3 : 08:18:49.638 :         EXIT:  CInstallWA2 :: StartClosePNPWindowThread
+7.200.0.3 : 08:18:49.638 :         ENTRY: CInstall :: WindowsUpdateWA : bEnable = 0
+7.200.0.3 : 08:18:49.639 :         EXIT:  CInstall :: WindowsUpdateWA : bStatus = 1
+7.200.0.3 : 08:18:49.639 :         ENTRY: CInstall :: ReenumerateSystem
+7.200.0.3 : 08:18:50.972 :         EXIT:  CInstall :: ReenumerateSystem : bRetVal = 1
+7.200.0.3 : 08:18:50.972 :         ENTRY: CInstallWA2 :: EndClosePNPWindowThread : m_bRunThread = 1
+7.200.0.3 : 08:18:51.275 :         EXIT:  CInstallWA2 :: EndClosePNPWindowThread
+7.200.0.3 : 08:18:51.275 :       EXIT:  CInstall :: SetupInstallEnviroment : m_kDeviceDataList.GetCount() = 1
+7.200.0.3 : 08:18:51.276 :       ENTRY: CInstall::SpawnToUIU64IfNeeded
+7.200.0.3 : 08:18:51.276 :       csSetupExe = C:\swsetup\sp111438\SETUP64.EXE
+7.200.0.3 : 08:18:51.276 :       EXIT:  CInstall::SpawnToUIU64IfNeeded : bRetVal=0
+7.200.0.3 : 08:18:51.277 :       ENTRY: CInstall :: AudioSrvWA : bEnable = 0
+7.200.0.3 : 08:18:51.277 :         ENTRY: CService :: StopAService
+7.200.0.3 : 08:18:51.278 :         lpszServiceName = audiosrv, bDoDeleteService = 0
+7.200.0.3 : 08:18:51.380 :         EXIT:  CService :: StopAService : bRetVal = 1
+7.200.0.3 : 08:18:51.381 :         ENTRY: CService :: StopAService
+7.200.0.3 : 08:18:51.381 :         lpszServiceName = audioendpointbuilder, bDoDeleteService = 0
+7.200.0.3 : 08:18:51.483 :         EXIT:  CService :: StopAService : bRetVal = 1
+7.200.0.3 : 08:18:51.483 :       EXIT:  CInstall :: AudioSrvWA
+7.200.0.3 : 08:18:51.483 :       ENTRY: CDevNode::FindInstalledCnxtDevice
+7.200.0.3 : 08:18:51.497 :       pszBusDeviceID = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.497 :       EXIT:  CDevNode::FindInstalledCnxtDevice : bRetVal = 1
+7.200.0.3 : 08:18:51.497 :       ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:18:51.498 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.498 :       ENTRY: CINIFile::CINIFile
+7.200.0.3 : 08:18:51.498 :         ENTRY: CINIFile::ReInitialize
+7.200.0.3 : 08:18:51.498 :         m_dwUCIActiveMutex = 0
+7.200.0.3 : 08:18:51.498 :         m_szINIPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.499 :         EXIT:  CINIFile::ReInitialize
+7.200.0.3 : 08:18:51.499 :       EXIT:  CINIFile::CINIFile(null)
+7.200.0.3 : 08:18:51.499 :       ENTRY: CInstall::SetUserInfoReg
+7.200.0.3 : 08:18:51.500 :       csUserPath = C:\Windows\system32\config\systemprofile\
+7.200.0.3 : 08:18:51.501 :       EXIT:  CInstall::SetUserInfoReg
+7.200.0.3 : 08:18:51.501 :       ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:18:51.501 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.501 :       ENTRY: CINIFile::CINIFile
+7.200.0.3 : 08:18:51.506 :         ENTRY: CINIFile::ReInitialize
+7.200.0.3 : 08:18:51.507 :         m_dwUCIActiveMutex = 0
+7.200.0.3 : 08:18:51.507 :         m_szINIPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.507 :         EXIT:  CINIFile::ReInitialize
+7.200.0.3 : 08:18:51.508 :       EXIT:  CINIFile::CINIFile(null)
+7.200.0.3 : 08:18:51.508 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.508 :         ENTRY: KINIFile::Initialize : pszDeviceID = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.509 :           ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:18:51.509 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.518 :           ENTRY: CDevNode::FindDevNode : pszPNPID = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.519 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.200.0.3 : 08:18:51.531 :           ENTRY: CDevNode::FindDevNode : pszPNPID = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.531 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.200.0.3 : 08:18:51.532 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0008, m_ClassType = 2
+7.200.0.3 : 08:18:51.532 :         m_pSetupParms->csParentFilePath=,
+7.200.0.3 : 08:18:51.533 :         MyPaths = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.533 :         EXIT:  KINIFile::Initialize
+7.200.0.3 : 08:18:51.533 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 1
+7.200.0.3 : 08:18:51.533 :           ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:18:51.534 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.534 :           ENTRY: KINIFile::LocateINIFileNames
+7.200.0.3 : 08:18:51.534 :           pszInstallPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.534 :           szTestFile = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.534 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.200.0.3 : 08:18:51.539 :           ENTRY: CINIFile::SortINIFiles
+7.200.0.3 : 08:18:51.540 :           EXIT:  CINIFile::SortINIFiles
+7.200.0.3 : 08:18:51.540 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.541 :           m_szDecorationTag = 
+7.200.0.3 : 08:18:51.541 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:18:51.541 :           EXIT:  CInf :: Initialize
+7.200.0.3 : 08:18:51.542 :           ENTRY: KINIFile::GetINIInfo
+7.200.0.3 : 08:18:51.542 :             ENTRY: KINIFile::GetInstallSection
+7.200.0.3 : 08:18:51.542 :             m_pSetupParms->csPNPIDFromUCI = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.543 :             KINIFile::GetInstallSection : szDeviceInstanceId = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.543 :               ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:18:51.544 :                 ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:18:51.545 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:18:51.545 :               pszSectionTag = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.545 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:18:51.546 :             pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.546 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.200.0.3 : 08:18:51.546 :           szINFFileName= Setup.ini, pszInstallSection = tasks.ntamd64.10.0...16273, pdwFlags = 1048576
+7.200.0.3 : 08:18:51.546 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.200.0.3 : 08:18:51.547 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.547 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.200.0.3 : 08:18:51.547 :             dwFlags = 1048576, pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.548 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.200.0.3 : 08:18:51.548 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.200.0.3 : 08:18:51.548 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.200.0.3 : 08:18:51.548 :           pszInstallSection = tasks.ntamd64.10.0...16273, dwCoinstStatus = 1
+7.200.0.3 : 08:18:51.549 :             ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:18:51.549 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.549 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.200.0.3 : 08:18:51.550 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.200.0.3 : 08:18:51.550 :           pszInstallSection = tasks.ntamd64.10.0...16273, dwCoinstStatus = 1
+7.200.0.3 : 08:18:51.550 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.200.0.3 : 08:18:51.551 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.200.0.3 : 08:18:51.551 :           pszInstallSection = tasks.ntamd64.10.0...16273, dwCoinstStatus = 1
+7.200.0.3 : 08:18:51.551 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.200.0.3 : 08:18:51.551 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.200.0.3 : 08:18:51.552 :           pszInstallSection = tasks.ntamd64.10.0...16273, dwCoinstStatus = 1
+7.200.0.3 : 08:18:51.552 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.200.0.3 : 08:18:51.552 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.200.0.3 : 08:18:51.552 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.200.0.3 : 08:18:51.559 :       ENTRY: CINIFile::InstallINIFiles
+7.200.0.3 : 08:18:51.560 :       pszDeviceID = CNXTAPP, pszINIPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.561 :         ENTRY: KINIFile::Initialize : pszDeviceID = CNXTAPP
+7.200.0.3 : 08:18:51.561 :           ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:18:51.562 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.609 :           ENTRY: CDevNode::FindDevNode : pszPNPID = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.609 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.200.0.3 : 08:18:51.610 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0008
+7.200.0.3 : 08:18:51.610 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0008, m_ClassType = 2
+7.200.0.3 : 08:18:51.610 :         m_pSetupParms->csParentFilePath=,
+7.200.0.3 : 08:18:51.611 :         MyPaths = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.611 :         EXIT:  KINIFile::Initialize
+7.200.0.3 : 08:18:51.611 :         ENTRY: KINIFile::InstallINIFiles : pszINIPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.612 :           ENTRY: KINIFile::LocateINIFileNames
+7.200.0.3 : 08:18:51.612 :           pszInstallPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.612 :           szTestFile = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.613 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.200.0.3 : 08:18:51.613 :           ENTRY: CINIFile::SortINIFiles
+7.200.0.3 : 08:18:51.613 :           EXIT:  CINIFile::SortINIFiles
+7.200.0.3 : 08:18:51.614 :           ENTRY: KINIFile :: GetUninstallerPath : pszINIInstallPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.614 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\SWSETUP\SP111438\\SETUP.INI
+7.200.0.3 : 08:18:51.615 :             m_szDecorationTag = 
+7.200.0.3 : 08:18:51.616 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:18:51.616 :             EXIT:  CInf :: Initialize
+7.200.0.3 : 08:18:51.616 :             ENTRY: KINIFile::GetInstallSection
+7.200.0.3 : 08:18:51.616 :             m_pSetupParms->csPNPIDFromUCI = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.617 :             KINIFile::GetInstallSection : szDeviceInstanceId = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.617 :               ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:18:51.617 :                 ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:18:51.618 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:18:51.623 :               pszSectionTag = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.623 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:18:51.624 :             pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.624 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.200.0.3 : 08:18:51.624 :           m_szUninstallerPath = NO_PATH
+7.200.0.3 : 08:18:51.625 :           EXIT:  KINIFile :: GetUninstallerPath : bRetVal = 0
+7.200.0.3 : 08:18:51.625 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.626 :           m_szDecorationTag = 
+7.200.0.3 : 08:18:51.626 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:18:51.627 :           EXIT:  CInf :: Initialize
+7.200.0.3 : 08:18:51.627 :           ENTRY: KINIFile::GetINIInfo
+7.200.0.3 : 08:18:51.627 :             ENTRY: KINIFile::GetInstallSection
+7.200.0.3 : 08:18:51.627 :             m_pSetupParms->csPNPIDFromUCI = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.627 :             KINIFile::GetInstallSection : szDeviceInstanceId = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.627 :               ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:18:51.628 :                 ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:18:51.628 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:18:51.628 :               pszSectionTag = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.628 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:18:51.628 :             pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.629 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.200.0.3 : 08:18:51.631 :           szINFFileName= Setup.ini, pszInstallSection = tasks.ntamd64.10.0...16273, pdwFlags = 1048576
+7.200.0.3 : 08:18:51.639 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.200.0.3 : 08:18:51.639 :           ENTRY: KINIFile::IsVerifyIfProcessedINIFile : pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.640 :           EXIT:  KINIFile::IsVerifyIfProcessedINIFile : bRetVal = 0
+7.200.0.3 : 08:18:51.640 :           ENTRY: KINIFile::InstallSingleINIFile : pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.641 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.642 :             m_szDecorationTag = 
+7.200.0.3 : 08:18:51.642 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:18:51.643 :             EXIT:  CInf :: Initialize
+7.200.0.3 : 08:18:51.643 :             ENTRY: KINIFile::GetINIInfo
+7.200.0.3 : 08:18:51.644 :               ENTRY: KINIFile::GetInstallSection
+7.200.0.3 : 08:18:51.644 :               m_pSetupParms->csPNPIDFromUCI = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.644 :               KINIFile::GetInstallSection : szDeviceInstanceId = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:18:51.644 :                 ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:18:51.645 :                   ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:18:51.645 :                   EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:18:51.646 :                 pszSectionTag = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.646 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:18:51.646 :               pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.646 :               EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.200.0.3 : 08:18:51.647 :             szINFFileName= Setup.ini, pszInstallSection = tasks.ntamd64.10.0...16273, pdwFlags = 1048576
+7.200.0.3 : 08:18:51.647 :             EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.200.0.3 : 08:18:51.647 :             ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.648 :               ENTRY: CINIFile::CheckIfValidINIFile
+7.200.0.3 : 08:18:51.648 :               dwFlags = 1048576, pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.648 :               EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.200.0.3 : 08:18:51.649 :             EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.200.0.3 : 08:18:51.649 :             ENTRY: KINIFile::EnableDisableDevice : bEnableFlag = 0
+7.200.0.3 : 08:18:51.649 :             EXIT:  KINIFile::EnableDisableDevice : bRetVal = 0
+7.200.0.3 : 08:18:51.649 :             ENTRY: CINICustomFile::SetupInstallINIFile : pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.651 :             szTempINIFileName = C:\Windows\TEMP\CustomINI5ffff05b0\\Setup.ini
+7.200.0.3 : 08:18:51.651 :             szTempTempINIFileName = C:\Windows\TEMP\Setup.ini
+7.200.0.3 : 08:18:51.653 :             EXIT:  CINICustomFile::SetupInstallINIFile : bRetVal = 0
+7.200.0.3 : 08:18:51.653 :             ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:18:51.653 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438
+7.200.0.3 : 08:18:51.654 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.655 :             m_szDecorationTag = 
+7.200.0.3 : 08:18:51.656 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:18:51.656 :             EXIT:  CInf :: Initialize
+7.200.0.3 : 08:18:51.656 :             ENTRY: KINIFile::InstallPreCopyFiles : pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.656 :             EXIT:  KINIFile::InstallPreCopyFiles
+7.200.0.3 : 08:18:51.656 :             ENTRY: KINIFile::InstallDefinedApps
+7.200.0.3 : 08:18:51.657 :             KINIFile::InstallDefinedApps : pszInstallSection = tasks.ntamd64.10.0...16273, pszInstallTag = PreInstallApp
+7.200.0.3 : 08:18:51.657 :               ENTRY: KINIFile::InstallDefinedApps2
+7.200.0.3 : 08:18:51.658 :               szInstallAppSection = InstallApp64RS3, pszInstallTag = PreInstallApp
+7.200.0.3 : 08:18:51.658 :                 ENTRY: IsDeviceGuardCase
+7.200.0.3 : 08:18:51.659 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.200.0.3 : 08:18:51.659 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.200.0.3 : 08:18:51.659 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.200.0.3 : 08:18:51.662 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.662 :             m_szDecorationTag = 
+7.200.0.3 : 08:18:51.663 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:18:51.663 :             EXIT:  CInf :: Initialize
+7.200.0.3 : 08:18:51.663 :             ENTRY: KINIFile::UninstallSetSearchIndex
+7.200.0.3 : 08:18:51.664 :             csPath = C:\Users\Public\Documents\Conexant
+7.200.0.3 : 08:18:51.665 :               ENTRY: CFileUtils::DeleteFolder : pszFolderName = C:\Users\Public\Documents\Conexant
+7.200.0.3 : 08:18:51.676 :               EXIT:  CFileUtils::DeleteFolder : hr = 2
+7.200.0.3 : 08:18:51.677 :             EXIT:  KINIFile::UninstallSetSearchIndex
+7.200.0.3 : 08:18:51.677 :             ENTRY: KINIFile::ProcessINIFile : pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.677 :               ENTRY: CDevNode::RegOpenClassDeviceKey
+7.200.0.3 : 08:18:51.678 :               m_hClassDeviceKey = 1236
+7.200.0.3 : 08:18:51.678 :               EXIT:  CDevNode::RegOpenClassDeviceKey
+7.200.0.3 : 08:18:51.682 :             EXIT:  KINIFile::ProcessINIFile : dwRetVal = 1
+7.200.0.3 : 08:18:51.682 :             ENTRY: CCabFile::InstallIniDefinedCabs
+7.200.0.3 : 08:18:51.682 :             pszINIFileName = C:\swsetup\sp111438\\Setup.ini, pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.683 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:18:51.684 :               m_szDecorationTag = 
+7.200.0.3 : 08:18:51.684 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:18:51.684 :               EXIT:  CInf :: Initialize
+7.200.0.3 : 08:18:51.685 :             EXIT:  CCabFile::InstallIniDefinedCabs : bRetVal = 0
+7.200.0.3 : 08:18:51.685 :             ENTRY: KINIFile::InstallDirectiveInstallInf: pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.686 :               ENTRY: KINIFile::InstallDirectiveInstallInf1 : pszInstallInfSection = InstallInf
+7.200.0.3 : 08:18:51.686 :               EXIT:  KINIFile::InstallDirectiveInstallInf1
+7.200.0.3 : 08:18:51.687 :             EXIT:  KINIFile::InstallDirectiveInstallInf : bRetVal = 0
+7.200.0.3 : 08:18:51.687 :             ENTRY: KINIFile::InstallDirectiveUpgradeFW: pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:18:51.687 :               ENTRY: KINIFile::InstallDirectiveUpgradeFW1 : pszInstallInfSection = UpgradeFW
+7.200.0.3 : 08:18:51.688 :               EXIT:  KINIFile::InstallDirectiveUpgradeFW1 : bRetVal = 0
+7.200.0.3 : 08:18:51.688 :             EXIT:  KINIFile::InstallDirectiveUpgradeFW : bRetVal = 0
+7.200.0.3 : 08:18:51.688 :             ENTRY: KINIFile::InstallDefinedApps
+7.200.0.3 : 08:18:51.688 :             KINIFile::InstallDefinedApps : pszInstallSection = tasks.ntamd64.10.0...16273, pszInstallTag = InstallApp
+7.200.0.3 : 08:18:51.689 :               ENTRY: KINIFile::InstallDefinedApps2
+7.200.0.3 : 08:18:51.689 :               szInstallAppSection = InstallApp64RS3, pszInstallTag = InstallApp
+7.200.0.3 : 08:18:51.689 :                 ENTRY: IsDeviceGuardCase
+7.200.0.3 : 08:18:51.690 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.200.0.3 : 08:18:51.690 :               szRootPath = W10RS3\HDAudioBusDrv\UIU64a.exe
+7.200.0.3 : 08:18:51.692 :               szInstallAppType = InstallApp
+7.200.0.3 : 08:18:51.693 :               Flags: szBuffer = , dwFlags = 0
+7.200.0.3 : 08:18:51.693 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = W10RS3\HDAudioBusDrv\UIU64a.exe
+7.200.0.3 : 08:18:51.693 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.200.0.3 : 08:18:51.694 :                 ENTRY: IsDeviceGuardCase
+7.200.0.3 : 08:18:51.694 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.200.0.3 : 08:18:51.695 :               CInf::GetINFFilePath() = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:51.695 :               szExeName = "C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe"
+7.200.0.3 : 08:18:51.695 :               szExeName(EXIST) = "C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe"
+7.200.0.3 : 08:18:51.696 :                 ENTRY: KINIFile::ISRepairWA
+7.200.0.3 : 08:18:51.696 :                 pszRootPath = W10RS3\HDAudioBusDrv\UIU64a.exe
+7.200.0.3 : 08:18:51.697 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.200.0.3 : 08:18:51.699 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = "C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe"
+7.200.0.3 : 08:18:51.699 :                 szFileName = C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe
+7.200.0.3 : 08:18:51.701 :                 szDescription = Conexant Universal Device Install/Uninstall x64 Application
+7.200.0.3 : 08:18:51.702 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 1
+7.200.0.3 : 08:18:51.702 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = "C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe"
+7.200.0.3 : 08:18:51.703 :                 szFileName = C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe
+7.200.0.3 : 08:18:51.705 :                 szDescription = Conexant Universal Device Install/Uninstall x64 Application
+7.200.0.3 : 08:18:51.706 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 1
+7.200.0.3 : 08:18:51.707 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 1
+7.200.0.3 : 08:18:51.707 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.200.0.3 : 08:18:51.707 :                 ENTRY: KINIFile::StartAnApp
+7.200.0.3 : 08:18:51.708 :                 pszExeName = "C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe", pszCmdline = -S -DUNINSTALLER -L2=detail -FNAME="Conexant HD/ISST Audio" -NR, dwFlags = 0
+7.200.0.3 : 08:18:51.708 :                   ENTRY: CFileUtils::SpawnApp
+7.200.0.3 : 08:18:51.712 :                   pszExeName = "C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe", pszCmdArg = -S -DUNINSTALLER -L2=detail -FNAME="Conexant HD/ISST Audio" -NRd
+7.200.0.3 : 08:18:51.712 :                   bWaitForProcess = 1, dwStartAppTimeOut = 600000, dwFlags = 0
+7.200.0.3 : 08:18:51.713 :                   csWorkingDir = "C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\
+7.200.0.3 : 08:18:51.713 :                   szExeName = "C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe"
+7.200.0.3 : 08:18:51.713 :                   pszCmdArg = -S -DUNINSTALLER -L2=detail -FNAME="Conexant HD/ISST Audio" -NR
+7.200.0.3 : 08:18:51.713 :                   Trying to Spawn with ShellExecuteExA
+7.200.0.3 : 08:18:58.290 :                   Child process signalled success
+7.200.0.3 : 08:18:58.291 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435456
+7.200.0.3 : 08:18:58.291 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435456
+7.200.0.3 : 08:18:58.291 :                 ENTRY: CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:18:58.292 :                 EXIT:  CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:18:58.292 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.200.0.3 : 08:18:58.292 :                 pszRootPath = W10RS3\HDAudioBusDrv\UIU64a.exe, pszCmdline = "C:\swsetup\sp111438\W10RS3\HDAudioBusDrv\UIU64a.exe"
+7.200.0.3 : 08:18:58.292 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.200.0.3 : 08:18:58.293 :               szRootPath = W10RS3\HDAudioOEDrv\UIU64a.exe
+7.200.0.3 : 08:18:58.293 :               szInstallAppType = InstallApp
+7.200.0.3 : 08:18:58.293 :               Flags: szBuffer = , dwFlags = 0
+7.200.0.3 : 08:18:58.293 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = W10RS3\HDAudioOEDrv\UIU64a.exe
+7.200.0.3 : 08:18:58.294 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.200.0.3 : 08:18:58.294 :                 ENTRY: IsDeviceGuardCase
+7.200.0.3 : 08:18:58.294 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.200.0.3 : 08:18:58.294 :               CInf::GetINFFilePath() = C:\swsetup\sp111438\
+7.200.0.3 : 08:18:58.295 :               szExeName = "C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe"
+7.200.0.3 : 08:18:58.295 :               szExeName(EXIST) = "C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe"
+7.200.0.3 : 08:18:58.295 :                 ENTRY: KINIFile::ISRepairWA
+7.200.0.3 : 08:18:58.296 :                 pszRootPath = W10RS3\HDAudioOEDrv\UIU64a.exe
+7.200.0.3 : 08:18:58.296 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.200.0.3 : 08:18:58.296 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = "C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe"
+7.200.0.3 : 08:18:58.296 :                 szFileName = C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe
+7.200.0.3 : 08:18:58.298 :                 szDescription = Conexant Universal Device Install/Uninstall x64 Application
+7.200.0.3 : 08:18:58.299 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 1
+7.200.0.3 : 08:18:58.299 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = "C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe"
+7.200.0.3 : 08:18:58.299 :                 szFileName = C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe
+7.200.0.3 : 08:18:58.301 :                 szDescription = Conexant Universal Device Install/Uninstall x64 Application
+7.200.0.3 : 08:18:58.302 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 1
+7.200.0.3 : 08:18:58.302 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 2
+7.200.0.3 : 08:18:58.303 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.200.0.3 : 08:18:58.303 :                 ENTRY: KINIFile::StartAnApp
+7.200.0.3 : 08:18:58.303 :                 pszExeName = "C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe", pszCmdline = -S -PI -DUNINSTALLER -L2=detail -FNAME="Conexant HD/ISST Audio" -NR, dwFlags = 0
+7.200.0.3 : 08:18:58.304 :                   ENTRY: CFileUtils::SpawnApp
+7.200.0.3 : 08:18:58.304 :                   pszExeName = "C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe", pszCmdArg = -S -PI -DUNINSTALLER -L2=detail -FNAME="Conexant HD/ISST Audio" -NRd
+7.200.0.3 : 08:18:58.304 :                   bWaitForProcess = 1, dwStartAppTimeOut = 600000, dwFlags = 0
+7.200.0.3 : 08:18:58.305 :                   csWorkingDir = "C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\
+7.200.0.3 : 08:18:58.305 :                   szExeName = "C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe"
+7.200.0.3 : 08:18:58.305 :                   pszCmdArg = -S -PI -DUNINSTALLER -L2=detail -FNAME="Conexant HD/ISST Audio" -NR
+7.200.0.3 : 08:18:58.305 :                   Trying to Spawn with ShellExecuteExA
+7.200.0.3 : 08:19:08.727 :                   Child process signalled success
+7.200.0.3 : 08:19:08.727 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435456
+7.200.0.3 : 08:19:08.728 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435456
+7.200.0.3 : 08:19:08.728 :                 ENTRY: CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:19:08.728 :                 EXIT:  CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:19:08.729 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.200.0.3 : 08:19:08.729 :                 pszRootPath = W10RS3\HDAudioOEDrv\UIU64a.exe, pszCmdline = "C:\swsetup\sp111438\W10RS3\HDAudioOEDrv\UIU64a.exe"
+7.200.0.3 : 08:19:08.729 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.200.0.3 : 08:19:08.729 :               szRootPath = W10RS3\DetVerifDrv\UIU64a.exe
+7.200.0.3 : 08:19:08.729 :               szInstallAppType = InstallApp
+7.200.0.3 : 08:19:08.730 :               Flags: szBuffer = , dwFlags = 0
+7.200.0.3 : 08:19:08.730 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = W10RS3\DetVerifDrv\UIU64a.exe
+7.200.0.3 : 08:19:08.730 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.200.0.3 : 08:19:08.730 :                 ENTRY: IsDeviceGuardCase
+7.200.0.3 : 08:19:08.731 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.200.0.3 : 08:19:08.731 :               CInf::GetINFFilePath() = C:\swsetup\sp111438\
+7.200.0.3 : 08:19:08.731 :               szExeName = "C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe"
+7.200.0.3 : 08:19:08.732 :               szExeName(EXIST) = "C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe"
+7.200.0.3 : 08:19:08.732 :                 ENTRY: KINIFile::ISRepairWA
+7.200.0.3 : 08:19:08.732 :                 pszRootPath = W10RS3\DetVerifDrv\UIU64a.exe
+7.200.0.3 : 08:19:08.732 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.200.0.3 : 08:19:08.733 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = "C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe"
+7.200.0.3 : 08:19:08.733 :                 szFileName = C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe
+7.200.0.3 : 08:19:08.735 :                 szDescription = Conexant Universal Device Install/Uninstall x64 Application
+7.200.0.3 : 08:19:08.735 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 1
+7.200.0.3 : 08:19:08.735 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = "C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe"
+7.200.0.3 : 08:19:08.735 :                 szFileName = C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe
+7.200.0.3 : 08:19:08.736 :                 szDescription = Conexant Universal Device Install/Uninstall x64 Application
+7.200.0.3 : 08:19:08.737 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 1
+7.200.0.3 : 08:19:08.737 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 3
+7.200.0.3 : 08:19:08.737 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.200.0.3 : 08:19:08.738 :                 ENTRY: KINIFile::StartAnApp
+7.200.0.3 : 08:19:08.738 :                 pszExeName = "C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe", pszCmdline = -S -PI -DUNINSTALLER -L2=detail -FNAME="Conexant HD/ISST Audio" -NR, dwFlags = 0
+7.200.0.3 : 08:19:08.738 :                   ENTRY: CFileUtils::SpawnApp
+7.200.0.3 : 08:19:08.738 :                   pszExeName = "C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe", pszCmdArg = -S -PI -DUNINSTALLER -L2=detail -FNAME="Conexant HD/ISST Audio" -NRd
+7.200.0.3 : 08:19:08.738 :                   bWaitForProcess = 1, dwStartAppTimeOut = 600000, dwFlags = 0
+7.200.0.3 : 08:19:08.738 :                   csWorkingDir = "C:\swsetup\sp111438\W10RS3\DetVerifDrv\
+7.200.0.3 : 08:19:08.739 :                   szExeName = "C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe"
+7.200.0.3 : 08:19:08.739 :                   pszCmdArg = -S -PI -DUNINSTALLER -L2=detail -FNAME="Conexant HD/ISST Audio" -NR
+7.200.0.3 : 08:19:08.739 :                   Trying to Spawn with ShellExecuteExA
+7.200.0.3 : 08:19:11.267 :                   Child process signalled success
+7.200.0.3 : 08:19:11.267 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435456
+7.200.0.3 : 08:19:11.267 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435456
+7.200.0.3 : 08:19:11.268 :                 ENTRY: CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:19:11.268 :                 EXIT:  CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:19:11.268 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.200.0.3 : 08:19:11.268 :                 pszRootPath = W10RS3\DetVerifDrv\UIU64a.exe, pszCmdline = "C:\swsetup\sp111438\W10RS3\DetVerifDrv\UIU64a.exe"
+7.200.0.3 : 08:19:11.268 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.200.0.3 : 08:19:11.269 :               szRootPath = Audio\Setup.exe
+7.200.0.3 : 08:19:11.269 :               szInstallAppType = InstallApp
+7.200.0.3 : 08:19:11.269 :               Flags: szBuffer = , dwFlags = 0
+7.200.0.3 : 08:19:11.269 :                 ENTRY: KINIFile::CheckIfNGENPath : pszRootPath = Audio\Setup.exe
+7.200.0.3 : 08:19:11.269 :                 EXIT:  KINIFile::CheckIfNGENPath : bRetVal = 0
+7.200.0.3 : 08:19:11.270 :                 ENTRY: IsDeviceGuardCase
+7.200.0.3 : 08:19:11.270 :                 EXIT:  IsDeviceGuardCase : bRetVal = 0
+7.200.0.3 : 08:19:11.270 :               CInf::GetINFFilePath() = C:\swsetup\sp111438\
+7.200.0.3 : 08:19:11.270 :               szExeName = "C:\swsetup\sp111438\Audio\Setup.exe"
+7.200.0.3 : 08:19:11.271 :               szExeName(EXIST) = "C:\swsetup\sp111438\Audio\Setup.exe"
+7.200.0.3 : 08:19:11.271 :                 ENTRY: KINIFile::ISRepairWA
+7.200.0.3 : 08:19:11.271 :                 pszRootPath = Audio\Setup.exe
+7.200.0.3 : 08:19:11.271 :                 EXIT:  KINIFile::ISRepairWA : bRetVal = 0
+7.200.0.3 : 08:19:11.272 :                 ENTRY: CFileUtils::IsUIUFile : pszFileName = "C:\swsetup\sp111438\Audio\Setup.exe"
+7.200.0.3 : 08:19:11.276 :                 szFileName = C:\swsetup\sp111438\Audio\Setup.exe
+7.200.0.3 : 08:19:11.278 :                 szDescription = Conexant Universal Device Install/Uninstall x86 Application
+7.200.0.3 : 08:19:11.279 :                 EXIT:  CFileUtils::IsUIUFile : bRetVal = 1
+7.200.0.3 : 08:19:11.279 :                 ENTRY: CFileUtils::IsUIU7File : pszFileName = "C:\swsetup\sp111438\Audio\Setup.exe"
+7.200.0.3 : 08:19:11.279 :                 szFileName = C:\swsetup\sp111438\Audio\Setup.exe
+7.200.0.3 : 08:19:11.281 :                 szDescription = Conexant Universal Device Install/Uninstall x86 Application
+7.200.0.3 : 08:19:11.282 :                 EXIT:  CFileUtils::IsUIU7File : bRetVal = 1
+7.200.0.3 : 08:19:11.282 :                 ENTRY: KINIFile::UpdateProgBarAppIndex : nProgBarAppIndex = 4
+7.200.0.3 : 08:19:11.282 :                 EXIT:  KINIFile::UpdateProgBarAppIndex
+7.200.0.3 : 08:19:11.283 :                 ENTRY: KINIFile::StartAnApp
+7.200.0.3 : 08:19:11.283 :                 pszExeName = "C:\swsetup\sp111438\Audio\Setup.exe", pszCmdline = -S -OI=IntcAudioBus.inf,IntcOED.inf,DetectionVerificationDrv.inf -L2=detail -FNAME="Conexant HD/ISST Audio" -NR, dwFlags = 0
+7.200.0.3 : 08:19:11.283 :                   ENTRY: CFileUtils::SpawnApp
+7.200.0.3 : 08:19:11.283 :                   pszExeName = "C:\swsetup\sp111438\Audio\Setup.exe", pszCmdArg = -S -OI=IntcAudioBus.inf,IntcOED.inf,DetectionVerificationDrv.inf -L2=detail -FNAME="Conexant HD/ISST Audio" -NRd
+7.200.0.3 : 08:19:11.284 :                   bWaitForProcess = 1, dwStartAppTimeOut = 600000, dwFlags = 0
+7.200.0.3 : 08:19:11.284 :                   csWorkingDir = "C:\swsetup\sp111438\Audio\
+7.200.0.3 : 08:19:11.284 :                   szExeName = "C:\swsetup\sp111438\Audio\Setup.exe"
+7.200.0.3 : 08:19:11.284 :                   pszCmdArg = -S -OI=IntcAudioBus.inf,IntcOED.inf,DetectionVerificationDrv.inf -L2=detail -FNAME="Conexant HD/ISST Audio" -NR
+7.200.0.3 : 08:19:11.284 :                   Trying to Spawn with ShellExecuteExA
+7.200.0.3 : 08:20:33.316 :                   Child process signalled success
+7.200.0.3 : 08:20:33.316 :                   EXIT:  CFileUtils::SpawnApp : dwRetVal = 268435456
+7.200.0.3 : 08:20:33.316 :                 EXIT:  KINIFile::StartAnApp : dwRetVal = 268435456
+7.200.0.3 : 08:20:33.317 :                 ENTRY: CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:20:33.317 :                 EXIT:  CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:20:33.317 :                 ENTRY: KINIFile::CheckAppInstallStatus
+7.200.0.3 : 08:20:33.317 :                 pszRootPath = Audio\Setup.exe, pszCmdline = "C:\swsetup\sp111438\Audio\Setup.exe"
+7.200.0.3 : 08:20:33.318 :                 EXIT:  KINIFile::CheckAppInstallStatus : szRessultCode = 0
+7.200.0.3 : 08:20:33.318 :               EXIT:  KINIFile::InstallDefinedApps2 : dwRetVal = 0
+7.200.0.3 : 08:20:33.318 :             EXIT:  KINIFile::InstallDefinedApps : dwRetVal = 0
+7.200.0.3 : 08:20:33.319 :             ENTRY: CShortCut::CreateShortcut
+7.200.0.3 : 08:20:33.319 :             pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:20:33.319 :             pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:20:33.320 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:20:33.321 :               m_szDecorationTag = 
+7.200.0.3 : 08:20:33.321 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:20:33.322 :               EXIT:  CInf :: Initialize
+7.200.0.3 : 08:20:33.322 :             EXIT:  CShortCut::CreateShortcut
+7.200.0.3 : 08:20:33.322 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:20:33.323 :             m_szDecorationTag = 
+7.200.0.3 : 08:20:33.323 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:20:33.323 :             EXIT:  CInf :: Initialize
+7.200.0.3 : 08:20:33.323 :             ENTRY: KINIFile::InstallINFRegisterDLLsSection : pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:20:33.323 :             EXIT:  KINIFile::InstallINFRegisterDLLsSection : bRetVal = 0
+7.200.0.3 : 08:20:33.324 :             ENTRY: KINIFile::ReplaceSystemRegWithUserReg : pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:20:33.324 :             EXIT:  KINIFile::ReplaceSystemRegWithUserReg
+7.200.0.3 : 08:20:33.324 :             ENTRY: KINIFile::InstallAudioEndpointCfg : pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:20:33.325 :             EXIT:  KINIFile::InstallAudioEndpointCfg : dwRetVal = 0
+7.200.0.3 : 08:20:33.325 :             ENTRY: KINIFile::SetAddRemoveEntrySize
+7.200.0.3 : 08:20:33.325 :             EXIT:  KINIFile::SetAddRemoveEntrySize
+7.200.0.3 : 08:20:33.325 :             ENTRY: KINIFile::DoMicTrayVerification : pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:20:33.325 :             EXIT:  KINIFile::DoMicTrayVerification
+7.200.0.3 : 08:20:33.325 :             ENTRY: KINIFile::DeleteRollbackFiles
+7.200.0.3 : 08:20:33.326 :               ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:20:33.327 :               m_szDecorationTag = 
+7.200.0.3 : 08:20:33.327 :               m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:20:33.327 :               EXIT:  CInf :: Initialize
+7.200.0.3 : 08:20:33.327 :             EXIT:  KINIFile::DeleteRollbackFiles
+7.200.0.3 : 08:20:33.327 :           EXIT:  KINIFile::InstallSingleINIFile : dwRetVal = 0
+7.200.0.3 : 08:20:33.328 :         EXIT:  KINIFile::InstallINIFiles : dwRetVal = 0
+7.200.0.3 : 08:20:33.328 :       EXIT:  CINIFile::InstallINIFiles : dwRetVal = 1
+7.200.0.3 : 08:20:33.328 :       ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:20:33.328 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.328 :       ENTRY: CINIFile::CINIFile
+7.200.0.3 : 08:20:33.328 :         ENTRY: CINIFile::ReInitialize
+7.200.0.3 : 08:20:33.329 :         m_dwUCIActiveMutex = 0
+7.200.0.3 : 08:20:33.329 :         m_szINIPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.329 :         EXIT:  CINIFile::ReInitialize
+7.200.0.3 : 08:20:33.329 :       EXIT:  CINIFile::CINIFile(null)
+7.200.0.3 : 08:20:33.330 :       ENTRY: CINIFile::ProcessFlagsOpsINIFile : csDeviceID= INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:20:33.330 :         ENTRY: KINIFile::Initialize : pszDeviceID = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:20:33.330 :           ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:20:33.330 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.339 :           ENTRY: CDevNode::FindDevNode : pszPNPID = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:20:33.339 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.200.0.3 : 08:20:33.349 :           ENTRY: CDevNode::FindDevNode : pszPNPID = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:20:33.349 :           EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.200.0.3 : 08:20:33.349 :         m_szDriverPath = {4d36e96c-e325-11ce-bfc1-08002be10318}\0008, m_ClassType = 2
+7.200.0.3 : 08:20:33.349 :         m_pSetupParms->csParentFilePath=,
+7.200.0.3 : 08:20:33.349 :         MyPaths = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.350 :         EXIT:  KINIFile::Initialize
+7.200.0.3 : 08:20:33.350 :         ENTRY: KINIFile::ProcessFlagsOpsINIFile : dwCoinstStatus= 2
+7.200.0.3 : 08:20:33.350 :           ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:20:33.350 :           EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.350 :           ENTRY: KINIFile::LocateINIFileNames
+7.200.0.3 : 08:20:33.350 :           pszInstallPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.351 :           szTestFile = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:20:33.351 :           EXIT:  KINIFile::LocateINIFileNames : pkslINIFileNames->GetCount() = 1
+7.200.0.3 : 08:20:33.351 :           ENTRY: CINIFile::SortINIFiles
+7.200.0.3 : 08:20:33.351 :           EXIT:  CINIFile::SortINIFiles
+7.200.0.3 : 08:20:33.351 :           ENTRY: CInf :: Initialize : pszINFFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:20:33.352 :           m_szDecorationTag = 
+7.200.0.3 : 08:20:33.352 :           m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:20:33.353 :           EXIT:  CInf :: Initialize
+7.200.0.3 : 08:20:33.353 :           ENTRY: KINIFile::GetINIInfo
+7.200.0.3 : 08:20:33.353 :             ENTRY: KINIFile::GetInstallSection
+7.200.0.3 : 08:20:33.354 :             m_pSetupParms->csPNPIDFromUCI = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:20:33.354 :             KINIFile::GetInstallSection : szDeviceInstanceId = INTELAUDIO\FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:20:33.354 :               ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:20:33.355 :                 ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:20:33.355 :                 EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:20:33.355 :               pszSectionTag = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:20:33.356 :               EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:20:33.356 :             pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:20:33.356 :             EXIT:  KINIFile::GetInstallSection : bRetVal = 1
+7.200.0.3 : 08:20:33.357 :           szINFFileName= Setup.ini, pszInstallSection = tasks.ntamd64.10.0...16273, pdwFlags = 1048576
+7.200.0.3 : 08:20:33.357 :           EXIT:  KINIFile::GetINIInfo : bRetVal= 1
+7.200.0.3 : 08:20:33.357 :           ENTRY: KINIFile::IsValidINIFile : pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:20:33.357 :             ENTRY: CINIFile::CheckIfValidINIFile
+7.200.0.3 : 08:20:33.358 :             dwFlags = 1048576, pszINIFileName = C:\swsetup\sp111438\\Setup.ini
+7.200.0.3 : 08:20:33.358 :             EXIT:  CINIFile::CheckIfValidINIFile : bRetVal = 1
+7.200.0.3 : 08:20:33.358 :           EXIT:  KINIFile::IsValidINIFile : bRetVal = 1
+7.200.0.3 : 08:20:33.359 :           ENTRY: KINIFile::InstallCopyWildFilesSections
+7.200.0.3 : 08:20:33.359 :           pszInstallSection = tasks.ntamd64.10.0...16273, dwCoinstStatus = 2
+7.200.0.3 : 08:20:33.359 :             ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:20:33.359 :             EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.360 :           EXIT:  KINIFile::InstallCopyWildFilesSections
+7.200.0.3 : 08:20:33.360 :           ENTRY: KINIFile::InstallDelWildFilesSections
+7.200.0.3 : 08:20:33.360 :           pszInstallSection = tasks.ntamd64.10.0...16273, dwCoinstStatus = 2
+7.200.0.3 : 08:20:33.361 :           EXIT:  KINIFile::InstallDelWildFilesSections
+7.200.0.3 : 08:20:33.361 :           ENTRY: KINIFile::InstallCopyAllUsersFilesSections
+7.200.0.3 : 08:20:33.361 :           pszInstallSection = tasks.ntamd64.10.0...16273, dwCoinstStatus = 2
+7.200.0.3 : 08:20:33.361 :           EXIT:  KINIFile::InstallCopyAllUsersFilesSections
+7.200.0.3 : 08:20:33.362 :           ENTRY: KINIFile::InstallDelAllUsersFilesSections
+7.200.0.3 : 08:20:33.362 :           pszInstallSection = tasks.ntamd64.10.0...16273, dwCoinstStatus = 2
+7.200.0.3 : 08:20:33.362 :           EXIT:  KINIFile::InstallDelAllUsersFilesSections
+7.200.0.3 : 08:20:33.363 :         EXIT:  KINIFile::ProcessFlagsOpsINIFile
+7.200.0.3 : 08:20:33.363 :       EXIT:  CINIFile::ProcessFlagsOpsINIFile : dwRetVal = 0
+7.200.0.3 : 08:20:33.364 :       ENTRY: KINIFile::GetLocalPath
+7.200.0.3 : 08:20:33.365 :       EXIT:  KINIFile::GetLocalPath : pszLocalPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.365 :       ENTRY: CINIFile::CINIFile
+7.200.0.3 : 08:20:33.365 :         ENTRY: CINIFile::ReInitialize
+7.200.0.3 : 08:20:33.366 :         m_dwUCIActiveMutex = 0
+7.200.0.3 : 08:20:33.366 :         m_szINIPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.366 :         EXIT:  CINIFile::ReInitialize
+7.200.0.3 : 08:20:33.366 :       EXIT:  CINIFile::CINIFile(null)
+7.200.0.3 : 08:20:33.366 :       ENTRY: CVistaWaveRT::ProcessINIFile
+7.200.0.3 : 08:20:33.367 :       csINIFilePath = C:\swsetup\sp111438\, csDeviceID = FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:20:33.367 :         ENTRY: CVistaWaveRT::LocateRTWaveINIFiles : csINIFilePath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:33.367 :         EXIT:  CVistaWaveRT::LocateRTWaveINIFiles : pcslINIFileList->GetCount() = 1
+7.200.0.3 : 08:20:33.367 :         ENTRY: CInf :: Initialize : pszINFFileName = C:\SWSETUP\SP111438\SETUP.INI
+7.200.0.3 : 08:20:33.368 :         m_szDecorationTag = 
+7.200.0.3 : 08:20:33.369 :         m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:20:33.369 :         EXIT:  CInf :: Initialize
+7.200.0.3 : 08:20:33.378 :         ENTRY: CDevNode::FindDevNode : pszPNPID = FUNC_01&VEN_14F1&DEV_50F4&SUBSYS_103C814F
+7.200.0.3 : 08:20:33.378 :         EXIT:  CDevNode::FindDevNode : bRetVal = 1
+7.200.0.3 : 08:20:33.378 :         ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:20:33.378 :           ENTRY: CInf::SetupForDecorationA
+7.200.0.3 : 08:20:33.379 :           EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:20:33.379 :         pszSectionTag = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:20:33.379 :         EXIT:  CInf::SetupForDecorationA : bRetVal = 1
+7.200.0.3 : 08:20:33.379 :         ENTRY: CVistaWaveRT::GetInstallSection
+7.200.0.3 : 08:20:33.379 :         pszInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:20:33.379 :         EXIT:  CVistaWaveRT::GetInstallSection : bRetVal = 1
+7.200.0.3 : 08:20:33.380 :         ENTRY: CVistaWaveRT::ProcessINIFile
+7.200.0.3 : 08:20:33.380 :         CVistaWaveRT::ProcessINIFile : pszINIFileName = C:\SWSETUP\SP111438\SETUP.INI , szInstallSection = tasks.ntamd64.10.0...16273
+7.200.0.3 : 08:20:33.381 :           ENTRY: CVistaWaveRT::GetINIWaveRTSectionTags2
+7.200.0.3 : 08:20:33.381 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\SWSETUP\SP111438\SETUP.INI
+7.200.0.3 : 08:20:33.381 :             m_szDecorationTag = 
+7.200.0.3 : 08:20:33.382 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:20:33.382 :             EXIT:  CInf :: Initialize
+7.200.0.3 : 08:20:33.382 :           EXIT:  CVistaWaveRT::GetINIWaveRTSectionTags2 : bRetVal = 0
+7.200.0.3 : 08:20:33.382 :           ENTRY: CVistaWaveRT::GetINIWaveRTSectionTags1
+7.200.0.3 : 08:20:33.382 :             ENTRY: CInf :: Initialize : pszINFFileName = C:\SWSETUP\SP111438\SETUP.INI
+7.200.0.3 : 08:20:33.383 :             m_szDecorationTag = 
+7.200.0.3 : 08:20:33.383 :             m_szInstallSectionTag = CNXT_XYZ_INF
+7.200.0.3 : 08:20:33.383 :             EXIT:  CInf :: Initialize
+7.200.0.3 : 08:20:33.384 :           EXIT:  CVistaWaveRT::GetINIWaveRTSectionTags1 : bRetVal = 0
+7.200.0.3 : 08:20:33.384 :         EXIT:  CVistaWaveRT::ProcessINIFile : bRetVal = 0
+7.200.0.3 : 08:20:33.384 :       EXIT:  CVistaWaveRT::ProcessINIFile : bRetVal = 0
+7.200.0.3 : 08:20:33.385 :       ENTRY: CInstall :: AudioSrvWA : bEnable = 1
+7.200.0.3 : 08:20:33.385 :         ENTRY: CService :: StartAService : csServiceName = audiosrv
+7.200.0.3 : 08:20:34.939 :         EXIT:  CService :: StartAService : bRetVal = 1
+7.200.0.3 : 08:20:34.939 :       EXIT:  CInstall :: AudioSrvWA
+7.200.0.3 : 08:20:34.942 :       ENTRY: CInstall :: WindowsUpdateWA : bEnable = 1
+7.200.0.3 : 08:20:34.943 :       EXIT:  CInstall :: WindowsUpdateWA : bStatus = 1
+7.200.0.3 : 08:20:34.943 :       ENTRY: CInstall::DoGuiuDeferInstallApp
+7.200.0.3 : 08:20:34.944 :         ENTRY: CINIFile::ReInitialize
+7.200.0.3 : 08:20:34.945 :         m_dwUCIActiveMutex = 0
+7.200.0.3 : 08:20:34.945 :         m_szINIPath = C:\swsetup\sp111438\
+7.200.0.3 : 08:20:34.945 :         EXIT:  CINIFile::ReInitialize
+7.200.0.3 : 08:20:34.946 :       EXIT:  CInstall::DoGuiuDeferInstallApp
+7.200.0.3 : 08:20:34.946 :       ENTRY: CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:20:34.946 :       EXIT:  CFileUtils::MonitorAppSync (APPSYNC:)
+7.200.0.3 : 08:20:34.947 :     EXIT:  CSetupDlg::RunSetupDlg
+7.200.0.3 : 08:20:34.959 :   EXIT:  CSetupApp::RunSetupApp : m_SetupParms.nRetVal = 0
+7.200.0.3 : 08:20:34.959 :   ENTRY: CSetupApp::DoBlockedFilesWorkAround
+7.200.0.3 : 08:20:34.960 :     ENTRY: CSetupApp::IsLastUIURunning
+7.200.0.3 : 08:20:34.960 :       ENTRY: CFileUtils::NumberOfUIUInstancesRunning
+7.200.0.3 : 08:20:34.977 :       Found UIU Process Running : szProcessName = C:\swsetup\sp111438\Setup.exe
+7.200.0.3 : 08:20:34.990 :       EXIT:  CFileUtils::NumberOfUIUInstancesRunning : dwUIUCnt = 1
+7.200.0.3 : 08:20:34.990 :     EXIT:  CSetupApp::IsLastUIU: IsLastUIURunning=1
+7.200.0.3 : 08:20:34.991 :   EXIT:  CSetupApp::DoBlockedFilesWorkAround
+7.200.0.3 : 08:20:34.991 :   ENTRY: CSetupApp::SetupForReboot : bDoReboot = 0
+7.200.0.3 : 08:20:34.994 :   EXIT:  CSetupApp::SetupForReboot : bDoReboot = 0
+7.200.0.3 : 08:20:34.994 :   ENTRY: CSetupApp::SetupRetVal
+7.200.0.3 : 08:20:34.995 :   m_SetupParms.nRetVal = 0
+7.200.0.3 : 08:20:34.995 :     ENTRY: CSetupApp::SetupRetVal : m_SetupParms.nRetVal = 0
+7.200.0.3 : 08:20:34.995 :     EXIT:  CSetupApp::InitInstance() : m_SetupParms.nRetVal = 0
+7.200.0.3 : 08:20:34.996 :     ENTRY: CSetupApp::ExitInstance()
+7.200.0.3 : 08:20:34.996 :       ENTRY: CFileUtils::UnloadUIUService
+7.200.0.3 : 08:20:34.997 :         ENTRY: CService :: StopAService
+7.200.0.3 : 08:20:34.997 :         lpszServiceName = uiuservice, bDoDeleteService = 1
+7.200.0.3 : 08:20:35.114 :         EXIT:  CService :: StopAService : bRetVal = 1
+7.200.0.3 : 08:20:35.114 :         ENTRY: CFileUtils::DeleteAFile
+7.200.0.3 : 08:20:35.115 :         pszFileToDelete = C:\Windows\system32\UIUSrv.exe, dwFlags = 0
+7.200.0.3 : 08:20:35.115 :           ENTRY: CFileUtils::TerminateApp : csFileNamePath = C:\WINDOWS\SYSTEM32\UIUSRV.EXE
+7.200.0.3 : 08:20:35.122 :           EXIT:  CFileUtils::TerminateApp : bRetVal = 0
+7.200.0.3 : 08:20:35.124 :         GetLastError() = 2
+7.200.0.3 : 08:20:35.125 :         EXIT:  CFileUtils::DeleteAFile : dwRetVal = 1
+7.200.0.3 : 08:20:35.125 :       EXIT:  CFileUtils::UnloadUIUService : bFileExist = 1
+7.200.0.3 : 08:20:35.129 :       ENTRY: DeleteCreateTempFolderAndFiles
+7.200.0.3 : 08:20:35.129 :       EXIT:  DeleteCreateTempFolderAndFiles
+7.200.0.3 : 08:20:35.129 :     EXIT:  CSetupApp::ExitInstance()
